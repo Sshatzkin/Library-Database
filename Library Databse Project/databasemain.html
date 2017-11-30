@@ -1,0 +1,44 @@
+<html>
+	<head>
+		<script src="https://www.gstatic.com/firebasejs/4.6.1/firebase.js"></script>
+		<link rel="stylesheet" href="databaseStyle.css">
+		<title>Database</title>
+	</head>
+	
+	
+	
+	<body>
+		<div id="block">
+			<h1> Vegabase </h1>
+			<input type="text" id="inputText"></input>
+			<button id="sendInput"> Add to List </button>
+			<div id="list-block">
+				<ul id="list-of-fruits">
+				</ul>
+			</div>
+			<ul id="fancy-list">
+			  <li><a href="#menu" id="menu-button">Return to Menu</a></li>
+			</ul>
+		</div>
+	
+	
+	
+	
+	<script>
+		 // Initialize Firebase
+		 var config = {
+			apiKey: "AIzaSyBk0x8hu_H2xkc6W9b6hkNikc83g62hMcc",
+			authDomain: "book-library-b9fe1.firebaseapp.com",
+			databaseURL: "https://book-library-b9fe1.firebaseio.com",
+			projectId: "book-library-b9fe1",
+			storageBucket: "book-library-b9fe1.appspot.com",
+			messagingSenderId: "930440837220"
+		  };
+		  firebase.initializeApp(config);
+		</script>
+		
+		<script src="databaseScript.js"></script>
+	</body>
+
+
+</html>

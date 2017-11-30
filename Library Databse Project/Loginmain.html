@@ -1,0 +1,66 @@
+<html lang="en">
+	<head>
+		<script src="https://www.gstatic.com/firebasejs/4.6.1/firebase.js"></script>
+		<meta charset="UTF-8">
+		<link rel="stylesheet" href="loginstyle.css">
+		<link rel="stylesheet" href="C:\Users\sammy\Documents\Big Idea\HTML\Library Databse Project\Registration Page\registerStyle.css">
+		<title> Login</title>
+		<script src="jquery-3.2.1.js"></script>
+	</head>
+	<body>
+		<div id="loginbody">
+			
+			
+			<img src="C:\Users\sammy\Documents\Big Idea\HTML\Library Databse Project\Images\Large White Book Icon.png" alt="Book" id="book-image">
+			<h1>Log In</h1>
+			<div id="inputs-container">
+				<div id="username-box" class="input-box">
+					<img src="C:\Users\sammy\Documents\Big Idea\HTML\Library Databse Project\Images\Profile Icon.png" alt="Profile" id="profile-image" class="input-image">
+					<input type="text" id="username-input">
+				</div>
+				<div id="password-box" class="input-box">
+					<img src="C:\Users\sammy\Documents\Big Idea\HTML\Library Databse Project\Images\Lock Icon.png" alt="Password" id="password-image" class="input-image">
+					<input type="password" id="password-input">
+				</div>
+			</div>
+			<div id = "status"></div>
+			<button id="login-button">Submit</button>
+			<button id="logout-button"> Logout </button>
+			<button id="registration-button" class="long-text-button">Don't have an account?</button>
+			<button id="recover-button" class="long-text-button">Forgot your password?</button>
+			
+		</div>
+		
+		<div id="registration-body" class="registrationBody">
+			<h1>Registration</h1>
+			<div id="rinputs-container">
+				<div id="rusername-box" class="input-box">
+					<img src="C:\Users\sammy\Documents\Big Idea\HTML\Library Databse Project\Images\Profile Icon.png" alt="Profile" id="profile-image" class="input-image">
+					<input type="text" id="rusername-input">
+				</div>
+				<div id="rpassword-box1" class="input-box">
+					<img src="C:\Users\sammy\Documents\Big Idea\HTML\Library Databse Project\Images\Lock Icon.png" alt="Password" id="password-image" class="input-image">
+					<input type="password" id="rpassword-input1">
+				</div>
+			</div>
+			<button id="registration-gone" class = "long-text-button">Already have an account?</button>
+			
+		
+		</div>
+		
+		<script>
+		 // Initialize Firebase
+		 var config = {
+			apiKey: "AIzaSyBk0x8hu_H2xkc6W9b6hkNikc83g62hMcc",
+			authDomain: "book-library-b9fe1.firebaseapp.com",
+			databaseURL: "https://book-library-b9fe1.firebaseio.com",
+			projectId: "book-library-b9fe1",
+			storageBucket: "book-library-b9fe1.appspot.com",
+			messagingSenderId: "930440837220"
+		  };
+		  firebase.initializeApp(config);
+		</script>
+		
+		<script src="login-js.js"></script>
+	</body>
+</html>

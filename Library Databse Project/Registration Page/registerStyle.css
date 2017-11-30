@@ -1,0 +1,46 @@
+.registrationBody{
+		height: 70%;
+		width: 30%;
+		background-color: #D47373;
+		position: absolute;
+		left: 35%;
+		border-radius: 10px;
+		border: 2px solid white;
+		top: -75%;
+		margin: 0px auto;
+		display: block;
+		text-align: center;
+		font-size: 1em;
+		color: white;
+		-webkit-transition: top 1s;
+		transition: top 1s;
+		
+	
+}
+.registrationBody-active {
+  top: 25%;
+}
+
+#rinputs-container{
+	border: 2px solid white;
+	border-radius: 10px;
+	position: static;
+	
+	
+}
+
+#rusername-box{
+	border-bottom: 1px solid white;
+}
+
+#rpassword-box{
+	border-top: 1px solid white;
+}
+
+
+
+/*@keyframes registrationAnimation{
+	from {top: -60%}
+	to {top: 30%}
+	
+} */

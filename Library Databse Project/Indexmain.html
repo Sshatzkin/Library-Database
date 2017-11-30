@@ -1,0 +1,39 @@
+<html>
+	<head>
+		<script src="https://www.gstatic.com/firebasejs/4.6.1/firebase.js"></script>
+		<link rel="stylesheet" href="indexstyle.css">
+		<link rel="stylesheet" href="MenuCss.css">
+		<title>Index</title>
+	</head>
+	
+	<body>
+		<div id="block">
+			
+			<ul>
+			  <li><a href="#calc" id="calc-button">Calculator</a></li>
+			  <li><a href="#quote" id="amica-button">Get a Quote</a></li>
+			  <li><a href="#database" id="database-button">Access Database</a></li>
+			  <li><a href="#logout" id="logout-button">Logout</a></li>
+			</ul>
+			<h1>Home</h1>
+		</div>
+		
+		
+		
+		
+		<script>
+		 // Initialize Firebase
+		 var config = {
+			apiKey: "AIzaSyBk0x8hu_H2xkc6W9b6hkNikc83g62hMcc",
+			authDomain: "book-library-b9fe1.firebaseapp.com",
+			databaseURL: "https://book-library-b9fe1.firebaseio.com",
+			projectId: "book-library-b9fe1",
+			storageBucket: "book-library-b9fe1.appspot.com",
+			messagingSenderId: "930440837220"
+		  };
+		  firebase.initializeApp(config);
+		</script>
+		<script src="MenuScript.js"></script>
+		<script src="indexscript.js"></script>
+	</body>
+</html>

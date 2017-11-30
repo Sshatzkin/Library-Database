@@ -1,0 +1,14 @@
+#block{
+	width:75%;
+	height: 95%;
+	margin: 0px auto;
+	display: block;
+	position: relative;
+	background-color: #D8ECED;
+	text-align: center;
+	border: 2px solid black;
+}
+
+body{
+	background-color: #3C5354;
+}
